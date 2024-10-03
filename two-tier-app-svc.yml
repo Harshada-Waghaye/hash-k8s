@@ -4,7 +4,6 @@ metadata:
   labels:
     app.kubernetes.io/instance: two-tier-app
   name: two-tier-app-service
-  namespace: app
 spec:
   ports:
     - nodePort: 30006
